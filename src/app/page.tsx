@@ -20,7 +20,7 @@ export default function Home() {
           <li>Save and see your changes instantly.</li>
         </ol>
 
-        <div className={styles.ctas}>
+  <div className={styles.ctas}>
           <a
             className={styles.primary}
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
@@ -44,6 +44,14 @@ export default function Home() {
           >
             Read our docs
           </a>
+        </div>
+
+        {/* Tailwind test block — visible indicator that Tailwind is active */}
+        <div className="mt-8">
+          <div className="p-4 bg-sky-500 text-white rounded-lg shadow-md max-w-xs">
+            <h3 className="text-lg font-semibold">Tailwind is working ✅</h3>
+            <p className="text-sm opacity-90">If you see this styled box, Tailwind CSS is active.</p>
+          </div>
         </div>
       </main>
       <footer className={styles.footer}>
